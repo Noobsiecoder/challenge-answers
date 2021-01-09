@@ -1,5 +1,9 @@
+<<<<<<< Updated upstream
 # vscode file
 .vscode
 
 # exe files
+=======
+# .exe files
+>>>>>>> Stashed changes
 *.exe
