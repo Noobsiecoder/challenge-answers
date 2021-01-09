@@ -1,3 +1,4 @@
+// Function to add elements numerically and return
 const reduceArray = (array) =>
   Math.pow(
     array.reduce((total, num) => total + num),
