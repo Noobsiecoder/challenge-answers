@@ -1,3 +1,4 @@
+// Function to replace characters that repeat more than once using regular expression
 const replaceString = (string) => {
   new_arr = [];
   string = string.toLowerCase(); // Converting string to lowercase
