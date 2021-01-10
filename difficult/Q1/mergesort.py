@@ -25,9 +25,13 @@ def merge_sort(unsorted_list):
     return merge([*merge_sort(left)], [*merge_sort(right)])
 
 
-print(merge_sort([9, 7, 6, 5, 1, 4, 8, 3, 2])  == ([1, 2, 3, 4, 5, 6, 7, 8, 9]))  # True
-print(
-    merge_sort([54, 26, 93, 17, 77, 31, 44, 55, 20])
-    == ([17, 20, 26, 31, 44, 54, 55, 77, 93])
-)  # True
-print(merge_sort([]) == [])  # True
+if __name__ == "__main__":
+
+    print(
+        merge_sort([9, 7, 6, 5, 1, 4, 8, 3, 2]) == ([1, 2, 3, 4, 5, 6, 7, 8, 9])
+    )  # True
+    print(
+        merge_sort([54, 26, 93, 17, 77, 31, 44, 55, 20])
+        == ([17, 20, 26, 31, 44, 54, 55, 77, 93])
+    )  # True
+    print(merge_sort([]) == [])  # True
