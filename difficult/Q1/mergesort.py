@@ -13,15 +13,15 @@ def merge(left, right):
     return [*sorted_list, *left, *right]
 
 
-def merge_sort(List):
-    """ Function to sort {List} using merge sort algorithm """
+def merge_sort(unsorted_list):
+    """ Function to sort {unsorted_list} using merge sort algorithm """
 
     # Base case or terminating case
-    if len(List) < 2:
-        return List
-    mid = len(List) // 2
-    left = List[:mid]
-    right = List[mid:]
+    if len(unsorted_list) < 2:
+        return unsorted_list
+    mid = len(unsorted_list) // 2
+    left = unsorted_list[:mid]
+    right = unsorted_list[mid:]
     return merge([*merge_sort(left)], [*merge_sort(right)])
 
 
