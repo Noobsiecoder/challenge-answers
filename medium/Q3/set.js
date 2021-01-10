@@ -1,12 +1,12 @@
 // Function to find the union and intersection of array
 const arrayFunctions = (array1, array2) => [
-  [...array1, ...array2], // Using spread operator, joining two arrays as one 
+  [...new Set([...array1, ...array2])], // Using spread operator, joining two arrays as one
   array1.filter((x) => array2.includes(x)), // Filtering array by checking if {arr of [x]} exits in {arr2}
 ];
 
 console.log(
   JSON.stringify(arrayFunctions([1, 2, 3], [3, 6, 7])) ===
-    JSON.stringify([[1, 2, 3, 3, 6, 7], [3]])
+    JSON.stringify([[1, 2, 3, 6, 7], [3]])
 ); // true
 
 console.log(
@@ -27,4 +27,4 @@ console.log(
       [8, 7, 6, 5],
       [4, 3],
     ])
-); // false
+); // false*/
