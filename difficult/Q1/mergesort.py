@@ -1,5 +1,5 @@
 def merge(left, right):
-    """ Function to merge sub-arrays together an also sort them """
+    """ Function to merge sub-arrays together and also to sort them """
 
     sorted_list = []
     # Break out of loop if any one of the array gets empty

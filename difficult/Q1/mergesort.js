@@ -1,4 +1,4 @@
-// Function to merge sub-arrays together an also sort them
+// Function to merge sub-arrays together and also to sort them
 const merge = (left, right) => {
   let arr = [];
   // Break out of loop if any one of the array gets empty
