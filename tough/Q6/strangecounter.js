@@ -9,6 +9,6 @@ const strangeCounter = (time) => {
 };
 
 console.log(strangeCounter(4) === 6); // true
-console.log(strangeCounter(65));
-console.log(strangeCounter(1234321));
-console.log(strangeCounter(999999997668));
+console.log(strangeCounter(65) == 29); // true
+console.log(strangeCounter(1234321) == 338541); // true
+console.log(strangeCounter(999999997668) == 649267443994); // true
