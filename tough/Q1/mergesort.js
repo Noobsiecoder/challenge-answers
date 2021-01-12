@@ -16,8 +16,7 @@ const merge = (left, right) => {
   return [...arr, ...left, ...right];
 };
 
-
-// Function to sort {array} using merge sort algorithm 
+// Function to sort {array} using merge sort algorithm
 const mergeSort = (array) => {
   const half = array.length / 2;
 
@@ -30,4 +29,14 @@ const mergeSort = (array) => {
   return merge(mergeSort(left), mergeSort(array));
 };
 
-console.log(mergeSort([9, 7, 6, 5, 1, 4, 8, 3, 2]));
+console.log(
+  JSON.stringify(mergeSort([9, 7, 6, 5, 1, 4, 8, 3, 2])) ===
+    JSON.stringify([1, 2, 3, 4, 5, 6, 7, 8, 9])
+); // true
+
+console.log(
+  JSON.stringify(mergeSort([54, 26, 93, 17, 77, 31, 44, 55, 20])) ===
+    JSON.stringify([17, 20, 26, 31, 44, 54, 55, 77, 93])
+); // true
+
+console.log(JSON.stringify(mergeSort([])) === JSON.stringify([])); // true

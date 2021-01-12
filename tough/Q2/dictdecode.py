@@ -1,5 +1,5 @@
 def decrypt(string, shift):
-    return "".join([chr(ord(char) ^ (shift + 26 % (ord(char) + 5))) for char in string])
+    pass
 
 
 if __name__ == "__main__":
