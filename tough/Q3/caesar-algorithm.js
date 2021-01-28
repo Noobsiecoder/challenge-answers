@@ -30,7 +30,7 @@ const decrypt = (string, shift) => {
         ((string.charCodeAt(i) - shift - 65 + 26) % 26) + 65
       );
       /*
-       * Since C++ modulo operation wants to efficient for all hardwares, the result can be negative
+       * Since JavaScript modulo operation wants to efficient for all hardwares, the result can be negative
        * This result depends on the dividend
        * To ensure that the modulo operation returns positive only, we add it with 26 before starting the modulo operation
        * The same is carried in the {else} block
