@@ -1,4 +1,4 @@
-## 5. Write a program to display _n_ numbers in a fibonacci series
+## Write a program to display _n_ numbers in a fibonacci series
 _Contraints_ :-
 **_1 < number < 100_**
 
