@@ -1,4 +1,4 @@
-## 3. Write a program to check if a given string and a number is an anagram
+## Write a program to check if a given string and a number is an anagram
 _Contraints_ :-
 **_1 < number < 10000_**
 
