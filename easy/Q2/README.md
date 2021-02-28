@@ -1,4 +1,4 @@
-## 2. Write a program to check if a given string and a number is a palindrome
+## Write a program to check if a given string and a number is a palindrome
 _Contraints_ :-
 **_1 < number < 10000_**
 
