@@ -1,5 +1,5 @@
 # Easy Level Questions
----
+
 ## 1. Write a program to reserve a given string and a number
 _Contraints_ :-
 **_1 < number < 10000_**
