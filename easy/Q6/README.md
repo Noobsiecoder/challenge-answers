@@ -1,4 +1,4 @@
-## 6. Write a program to convert *ASCII* code to string and vice versa
+## Write a program to convert *ASCII* code to string and vice versa
 
 ```python
 # Python
