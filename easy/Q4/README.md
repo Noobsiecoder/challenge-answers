@@ -1,4 +1,4 @@
-## 4. Write a program to check if a given string and a number is an isogram
+## Write a program to check if a given string and a number is an isogram
 _Contraints_ :-
 **_1 < number < 10000_**
 
